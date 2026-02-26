@@ -1,0 +1,11 @@
+{
+  "name": "rolldown-tsconfig-paths-minimal-repro",
+  "version": "1.0.0",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript/native-preview": "7.0.0-dev.20260225.1",
+    "rolldown": "1.0.0-rc.5"
+  }
+}
