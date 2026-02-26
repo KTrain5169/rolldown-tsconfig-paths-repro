@@ -11,7 +11,7 @@ According to [issue #7177 on the Rolldown repo](https://github.com/rolldown/roll
 
 ## System information
 
-(Info obtained from `pnpx envinfo --system --npmPackages rolldown --binaries --browser`)
+(Info obtained from `pnpx envinfo --system --npmPackages rolldown --binaries --browsers`)
 
 ```bash
   System:
@@ -23,6 +23,10 @@ According to [issue #7177 on the Rolldown repo](https://github.com/rolldown/roll
     npm: 11.7.0 - C:\Program Files\nodejs\npm.CMD
     pnpm: 10.30.0 - C:\Users\KT\AppData\Local\pnpm\pnpm.CMD
     bun: 1.3.3 - C:\Users\KT\.bun\bin\bun.EXE
+  Browsers:
+    Chrome: 145.0.7632.117
+    Edge: Chromium (140.0.3485.54)
+    Firefox: 148.0 - C:\Program Files\Mozilla Firefox\firefox.exe
   npmPackages:
     rolldown: 1.0.0-rc.5 => 1.0.0-rc.5
 ```
