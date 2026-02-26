@@ -11,11 +11,21 @@ According to [issue #7177 on the Rolldown repo](https://github.com/rolldown/roll
 
 ## System information
 
-(Info obtained from `pnpx envinfo`)
+(Info obtained from `pnpx envinfo --system --npmPackages rolldown --binaries --browser`)
 
-- Package manager: `pnpm v10.30.0`
-- JS runtime: `Node.js v22.14.0`
-- OS: `Windows 11 10.0.26200`
+```bash
+  System:
+    OS: Windows 11 10.0.26200
+    CPU: (12) x64 13th Gen Intel(R) Core(TM) i5-1334U
+    Memory: 2.22 GB / 15.69 GB
+  Binaries:
+    Node: 22.14.0 - C:\Program Files\nodejs\node.EXE
+    npm: 11.7.0 - C:\Program Files\nodejs\npm.CMD
+    pnpm: 10.30.0 - C:\Users\KT\AppData\Local\pnpm\pnpm.CMD
+    bun: 1.3.3 - C:\Users\KT\.bun\bin\bun.EXE
+  npmPackages:
+    rolldown: 1.0.0-rc.5 => 1.0.0-rc.5
+```
 
 ## Reproduction steps
 
@@ -24,7 +34,9 @@ Run the following commands after opening:
 1. `pnpm install --frozen-lockfile`
 2. `pnpm rolldown -c`
 
-Then, observe the `[UNRESOLVED_IMPORT]` warning in the terminal:
+Expected behaviour: No warning, and Rolldown resolves aliased paths correctly.
+
+Actual behaviour: observe the following `[UNRESOLVED_IMPORT]` warnings in the terminal.
 
 ```bash
 app\index.ts (1:26) [UNRESOLVED_IMPORT] Warning: Could not resolve '1/index' in app/index.ts
