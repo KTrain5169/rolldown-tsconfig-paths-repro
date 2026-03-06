@@ -1,4 +1,4 @@
-# Rolldown TSConfig `references` and `paths` bug reproduction
+# Rolldown TSConfig `references`, `paths` & `jsx`/`jsxImportSource` bug reproduction
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/KTrain5169/rolldown-tsconfig-paths-minimal-repro)
 [![Open in Codeflow](https://developer.stackblitz.com/img/open_in_codeflow.svg)](https:///pr.new/KTrain5169/rolldown-tsconfig-paths-minimal-repro)
