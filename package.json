@@ -5,7 +5,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@typescript/native-preview": "7.0.0-dev.20260225.1",
-    "rolldown": "1.0.0-rc.5"
+    "@typescript/native-preview": "7.0.0-dev.20260305.1",
+    "rolldown": "1.0.0-rc.7"
+  },
+  "dependencies": {
+    "preact": "^10.28.4"
   }
 }

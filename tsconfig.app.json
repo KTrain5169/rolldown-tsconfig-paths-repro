@@ -9,7 +9,7 @@
     // See also https://aka.ms/tsconfig/module
     "module": "preserve",
     "moduleResolution": "bundler",
-    "types": [],
+    "types": ["preact"],
     // For nodejs:
     // "lib": ["esnext"],
     // "types": ["node"],
@@ -31,6 +31,7 @@
     // Recommended Options
     "strict": true,
     "jsx": "react-jsx",
+    "jsxImportSource": "preact",
     "verbatimModuleSyntax": true,
     "isolatedModules": true,
     "noUncheckedSideEffectImports": true,

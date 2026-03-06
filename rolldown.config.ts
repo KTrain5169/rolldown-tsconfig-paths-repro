@@ -2,7 +2,7 @@ import { defineConfig } from 'rolldown';
 
 export default defineConfig([
     {
-        input: 'app/index.ts',
+        input: 'app/index.tsx',
         output: {
             file: 'dist/app.js'
         },
